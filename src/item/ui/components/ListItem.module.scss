@@ -1,0 +1,33 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &.removing {
+    opacity: 0.5;
+    transform: scale(0.98);
+  }
+}
+
+.itemText {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.deleteButton {
+  font-size: 12px;
+  padding: 6px 12px;
+  min-width: 80px;
+}

@@ -1,0 +1,7 @@
+.container {
+  padding: 16px;
+  width: 100%;
+  font-size: 12px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}

@@ -1,0 +1,26 @@
+.container {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px 36px;
+  cursor: pointer;
+  transition: background-color 0.25s linear;
+  border: none;
+
+  &.primary {
+    background-color: dodgerblue;
+    color: white;
+
+    &:hover {
+      background-color: cornflowerblue;
+    }
+  }
+
+  &.secondary {
+    background-color: whitesmoke;
+    color: #333;
+
+    &:hover {
+      background-color: gainsboro;
+    }
+  }
+}
